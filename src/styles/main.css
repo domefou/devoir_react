@@ -1,0 +1,57 @@
+/* PAGE HOME*/
+
+.Accueil{
+    margin:auto;
+    padding: 25px;
+    padding-bottom: 40px;
+    gap: 2%;
+    width: 95%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.Accueil h3{
+    border-bottom: 2px solid blue;
+}
+.JohnDoesAbout{
+    width: 100%;
+}
+.progress-bar-HTML{
+    width: 90%;
+}
+.progress-bar-CSS{
+    width: 80%;
+}
+.progress-bar-JS{
+    width: 70%;
+}
+.progress-bar-REACT{
+    width: 60%;
+}
+.progress-bar-PHP{
+    width: 50%;
+}
+
+   /*desktop*/
+@media (min-width: 992px){
+   
+    .Accueil{
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        margin: auto;
+    }
+    .Accueil article{
+        width: 50%;
+    }
+    .Competences{
+        margin: 0;
+    }
+}
+
+/* PAGE CONTACT*/
+/* PAGE PORTFOLIO*/
+/* PAGE MENTION LEGAL*/
+/* PAGE SERVICE*/
+
+

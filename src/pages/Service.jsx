@@ -1,13 +1,24 @@
 import React from 'react';
-import '../styles/header.css';
+import '../styles/NavBar.css';
 import '../styles/main.css';
 import '../styles/footer.css';
 
 const Service = () => {
     return(
-        <div>
-            <h1>A propos</h1>
-        </div>
+        <main>
+            <section>
+            <article>
+                <p>Service</p>
+            </article>
+            
+            <article>
+                <div>
+                    
+                </div>
+            </article>
+        </section>
+        </main>
+        
     );
 }
 

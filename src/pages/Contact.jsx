@@ -1,13 +1,23 @@
 import React from 'react';
-import '../styles/header.css';
+import '../styles/NavBar.css';
 import '../styles/main.css';
 import '../styles/footer.css';
 
 const Contact = () => {
     return(
-        <div>
-            <h1>Contact</h1>
-        </div>
+        <main>
+            <section>
+            <article>
+                <p>Contact</p>
+            </article>
+            
+            <article>
+                <div>
+                    
+                </div>
+            </article>
+        </section>
+        </main>
     );
 }
 
