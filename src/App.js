@@ -1,23 +1,35 @@
 
 //feuille de style
-import './App.css';
+import './styles/App.css';
+
 
 //components
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
+
+
 
 function App() {
+
+
+
   return (
-    <body>
+    <div>
       <header>
         <NavBar />
       </header>
+      <main>
 
+      </main>
       
       <footer>
         <Footer/>
       </footer>
-    </body>
+    
+    </div>
+      
+    
+        
     
     
   );

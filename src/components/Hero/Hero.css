@@ -1,0 +1,60 @@
+.container-Hero{
+    position: relative;
+    
+}
+.ImgHero{
+    object-fit: cover;
+    width: 100%;
+    height: 750px;
+}
+/*prend toute la div container*/
+.Text-Hero{
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+}
+
+/*lien github*/
+.Text-Hero>button{
+    display: inline-block;
+    align-content: center;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    background-color: #dc3545;
+    color: rgba(255, 255, 255, 0.9);
+}
+.Text-Hero>button:hover{
+    background-color: rgba(180, 13, 29);
+    color:rgba(255, 255, 255, 0.8);
+}
+
+h1{
+    width: 90%;
+    font-size: 3.6em !important;
+    
+}
+h2{
+    width: 90%;
+    font-size: 2.3em !important;
+}
+    
+@media (min-width : 700px) {
+    
+h1{
+    font-size: 4.3em !important;
+    
+}
+h2{
+    font-size: 3em !important;
+}
+}

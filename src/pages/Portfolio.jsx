@@ -1,11 +1,9 @@
 import React from 'react';
-import '../styles/NavBar.css';
 import '../styles/main.css';
-import '../styles/footer.css';
 
 const Portfolio = () => {
     return(
-        <main>
+        <div>
             <section>
             <article>
                 <p>Portfolio</p>
@@ -17,7 +15,7 @@ const Portfolio = () => {
                 </div>
             </article>
         </section>
-        </main>
+        </div>
         
     );
 }

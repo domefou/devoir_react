@@ -1,11 +1,9 @@
 import React from 'react';
-import '../styles/NavBar.css';
 import '../styles/main.css';
-import '../styles/footer.css';
 
 const Contact = () => {
     return(
-        <main>
+        <div>
             <section>
             <article>
                 <p>Contact</p>
@@ -17,7 +15,7 @@ const Contact = () => {
                 </div>
             </article>
         </section>
-        </main>
+        </div>
     );
 }
 

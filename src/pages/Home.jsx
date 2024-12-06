@@ -1,22 +1,22 @@
 import React from 'react';
-import '../styles/NavBar.css';
 import '../styles/main.css';
-import '../styles/footer.css';
-import Hero from '../components/Hero';
+import Hero from '../components/Hero/Hero';
 
 import JohnDoesAbout from '../assets/img/john-doe-about.jpg';
 
+
 function Home(){
     return(
-        <main>
+        <div>
             <section>
                 <Hero />
             </section>
             
-            <div className='Accueil'>
+            <section className='Accueil'>
                 <article className='About'>
                     <h3>A propos</h3>
                     <img src={JohnDoesAbout} className='JohnDoesAbout' alt="photo de profil john does"></img>
+                    <div className='About-text'>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Voluptas ducimus qui corrupti nam, voluptatem tenetur 
@@ -32,6 +32,8 @@ function Home(){
                         Voluptas ducimus qui corrupti nam, voluptatem tenetur 
                         obcaecati maxime repellat autem.
                     </p>
+                    </div>
+                    
                     
                 </article>
                 <article className='Competences'>
@@ -70,9 +72,9 @@ function Home(){
 
 
                 </article>
-            </div>
+            </section>
             
-        </main>
+        </div>
     );
 }
 

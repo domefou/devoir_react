@@ -1,11 +1,9 @@
 import React from 'react';
-import '../styles/NavBar.css';
 import '../styles/main.css';
-import '../styles/footer.css';
 
 const Service = () => {
     return(
-        <main>
+        <div>
             <section>
             <article>
                 <p>Service</p>
@@ -17,7 +15,7 @@ const Service = () => {
                 </div>
             </article>
         </section>
-        </main>
+        </div>
         
     );
 }
