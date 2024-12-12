@@ -1,8 +1,15 @@
 import React from 'react';
+
+/* Assets*/
 import HeroImage from '../../assets/img/hero-bg.jpg'
+
+/* Styles */
+import './Hero.css';
+
+/* Components */
 import Modal from '../Modal/Modal';
 
-import './Hero.css';
+
 
 function openModal(){
     document.querySelector('.overlay').style.display ='block';
@@ -10,14 +17,14 @@ function openModal(){
 }
 
 
-
-
 const Hero = () =>{
 
-    return(
-    <main>
-        <Modal/>
+
+    
+
+    return (
     <section>
+        <Modal />
         <div className="container-Hero"> 
             <img src={HeroImage} className='ImgHero' alt='photo de developpeur web'>
             </img>
@@ -28,7 +35,6 @@ const Hero = () =>{
             </div>
         </div>
     </section>
-    </main>
     );
 }
 

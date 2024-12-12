@@ -94,7 +94,7 @@ footer h4{
         
     }
     .footer_social-network a:hover{
-        color: rgba(230, 230, 230, 0.4);
+        color: rgb(230, 230, 230);
     }
     /* colonne 2*/
     .footer_nav-link:hover,

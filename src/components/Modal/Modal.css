@@ -23,7 +23,7 @@ p{
     left:50%;
     transform: translate(-50%, -50%);
     z-index: 15;
-    width: 95%;
+    width: 90%;
     height: 95%;
     background-color: #212529;
     border: 1px solid rgb(128, 128, 128,0.5);
@@ -39,10 +39,12 @@ p{
     flex-direction: row;
     justify-content: space-between;
     padding:8px 0 8px 8px;
+    width: 100%;
     height: 45px;
     border-bottom: 1px solid rgb(128, 128, 128,0.5);
     color: white;
 }
+
 .header__modal>svg{
     margin: 8px 8px 0 0;
 }
@@ -56,12 +58,14 @@ p{
 
 
 .main__avatar{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 50%;
-    background-image: url(https://avatars.githubusercontent.com/u/19842736?v=4);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+.avatar{
+    min-width: 250px;
+    max-height: 255px;
 }
 .main__modal{
     display: flex;
@@ -143,7 +147,7 @@ svg{
     .viewModal{
         width: 50%;
         min-width: 555px;
-        height: 70%;
+        max-height: 420px;
     }
     .header__modal{
         width: 100%;

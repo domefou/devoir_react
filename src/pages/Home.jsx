@@ -1,15 +1,23 @@
 import React from 'react';
-import '../styles/main.css';
+
+/* Assets */
+import JohnDoesAbout from '../assets/img/john-doe-about.jpg';
+/* Components */
+
 import Hero from '../components/Hero/Hero';
 
-import JohnDoesAbout from '../assets/img/john-doe-about.jpg';
+/* Styles */
+import '../styles/main.css';
 
 
-function Home(){
+
+
+
+const Home = () =>{
     return(
-        <div>
+        <main>
             <section>
-                <Hero />
+                <Hero/>
             </section>
             
             <section className='Accueil'>
@@ -73,8 +81,7 @@ function Home(){
 
                 </article>
             </section>
-            
-        </div>
+        </main>
     );
 }
 
