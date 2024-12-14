@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {Helmet } from 'react-helmet-async';
 /*
 MAP avec API:
 import { LoadScript, GoogleMap, Marker } from '@react-google-maps/api';
@@ -21,6 +22,10 @@ const Contact = () => {
 
     return(
         <main>
+            <Helmet> 
+                <title>Contact - John Doe</title> 
+                <meta name="description" content="Bienvenue sur la page contact de mon site web. Retrouvez ici toutes les informations nécessaire pour me contacter." />
+            </Helmet>
             <section className='pages-body'>
                 <article className='pages_title'>
                     <div className='border-bottom'></div>

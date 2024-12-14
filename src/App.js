@@ -1,5 +1,11 @@
 
 import React from 'react';
+
+//utilisation de HelmetProvider afin de donner une description a toutes les pages react
+//utiliser Helmet dans le contenu pour creer un title et une meta description
+import {HelmetProvider } from 'react-helmet-async';
+
+
 //feuille de style
 import './styles/main.css';
 
@@ -22,7 +28,8 @@ import Mention from './pages/Mention';
 function App() {
 
   return (
-    <div>
+    <HelmetProvider>
+      <div>
       <header>
         <NavBar/> 
       </header>
@@ -39,6 +46,9 @@ function App() {
         <Footer/>
       </footer> 
     </div>
+
+    </HelmetProvider>
+    
       
   );
 }

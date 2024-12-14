@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet } from 'react-helmet-async';
 
 /* Styles */
 import '../styles/pagesCSS/Mention.css';
@@ -7,11 +8,15 @@ const Mention = () => {
 
     return(
         <main>
+            <Helmet> 
+                <title>Mentions légales - John Doe</title> 
+                <meta name="description" content="Bienvenue sur la page mention légal. Retrouver ici les crédits utilisé pour créer ce site,ainsi que toutes les informations légal concernant les contenus." />
+                <meta name="robots" content="noindex, nofollow"/>
+            </Helmet>
             <section className='pages-body'>
                 <article className='pages_title'>
                     <div className='border-bottom'></div>
-                    <h2>Mon offre de services</h2>
-                    <p>Voici les préstations sur lesquelles je peux intervenir</p>
+                    <h2>Mentions légales</h2>
 
                 </article>
                 

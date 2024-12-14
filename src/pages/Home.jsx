@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {Helmet } from 'react-helmet-async';
+
 /* Assets */
 import JohnDoesAbout from '../assets/img/john-doe-about.jpg';
 /* Components */
@@ -16,6 +18,12 @@ import '../styles/pagesCSS/Home.css';
 const Home = () =>{
     return(
         <main>
+            
+      <Helmet> 
+        <title>Accueil - John Doe</title> 
+        <meta name="description" content="Bienvenue sur la page d'accueil de mon site web.Apprenez en plus sur moi,grace a ma déscription." />
+      </Helmet>
+
             <section>
                 {/* composant HERO pas indispensable mais plus paratique pour la lisibilité*/}
                 <Hero/>

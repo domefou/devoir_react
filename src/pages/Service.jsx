@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet } from 'react-helmet-async';
 
 /* Components */
 import Banner from '../components/Banner/Banner';
@@ -9,6 +10,12 @@ import '../styles/pagesCSS/Service.css';
 const Service = () => {
     return(
         <main>
+            
+            <Helmet> 
+                <title>Service - John Doe</title> 
+                <meta name="description" content="Bienvenue sur la page service. Découvrez nos services et offres,ainsi qu'un suivi personnalisé pour réaliser au mieux toutes vos idées." />
+            </Helmet>
+
             <section>
                 <Banner/>
             </section>

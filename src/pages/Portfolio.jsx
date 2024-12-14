@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet } from 'react-helmet-async';
 /* Components */
 import Banner from '../components/Banner/Banner';
 
@@ -16,6 +17,10 @@ import seo from '../assets/img/portfolio/seo.jpg';
 const Portfolio = () => {
     return(
     <main>
+        <Helmet> 
+            <title>Portfolio - John Doe</title> 
+            <meta name="description" content="Bienvenue sur la page portfolio. Je vous présente ici la diversitées de me contenu réalisé par mes soins et bien d'autre a venir..." />
+        </Helmet>
         <div>
             <section>
                 <Banner/>
