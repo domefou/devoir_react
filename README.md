@@ -1,14 +1,11 @@
 
-
-
-
-**John Doe, en formation de développeur web et a besoin d’un site internet pour se présenter 
+<!--John Doe, en formation de développeur web et a besoin d’un site internet pour se présenter 
 sur le marché de l’emploi et rechercher un emploi en alternance.  
 Son site est développé en HTML, CSS, avec l’utilisation du framework Bootstrap.
 John Doe souhaite que le site soit développé en utilisant REACT et qu'une utilisation régulière 
-de GitHub lui permette de suivre l'avancée du projet.**
+de GitHub lui permette de suivre l'avancée du projet.-->
 
-# CE SITE A ETE OPTIMISER POUR UNE UTILISATION SUR GOOGLE CHROME
+<!--CE SITE A ETE OPTIMISER POUR UNE UTILISATION SUR GOOGLE CHROME-->
 
 # Pour installer et configurer ce projet localement, suivez ces étapes : ( utiliser la console powershell ou Bash vsCode )
 
