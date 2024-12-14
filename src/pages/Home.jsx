@@ -7,7 +7,7 @@ import JohnDoesAbout from '../assets/img/john-doe-about.jpg';
 import Hero from '../components/Hero/Hero';
 
 /* Styles */
-import '../styles/main.css';
+import '../styles/pagesCSS/Home.css';
 
 
 
@@ -17,6 +17,7 @@ const Home = () =>{
     return(
         <main>
             <section>
+                {/* composant HERO pas indispensable mais plus paratique pour la lisibilité*/}
                 <Hero/>
             </section>
             

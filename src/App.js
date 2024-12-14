@@ -1,7 +1,6 @@
 
 import React from 'react';
 //feuille de style
-import './styles/App.css';
 import './styles/main.css';
 
 import {Route, Routes, Navigate} from 'react-router-dom';

@@ -1,297 +1,19 @@
-/* PAGE HOME*/
+                                        /* CSS MOBILE FIRST*/
 
-.Accueil{
-    margin:40px auto 50px;
-    padding: 25px;
-    padding-bottom: 40px;
-    gap: 2%;
-    width: 95%;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-}
-.Accueil h3{
-    margin-bottom: 40px;
-    border-bottom: 2px solid blue;
-    
-}
-.JohnDoesAbout{
-    width: 100%;
-}
-.About-text{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: auto;
-}
-.About-text p{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    text-align:start;
-}
+                                        /* MEDIA MIN-WIDHT 766PX */
+                                        
+                                        
+/*mobile general*/
 
-.progress-bar-HTML{
-    width: 90%;
-}
-.progress-bar-CSS{
-    width: 80%;
-}
-.progress-bar-JS{
-    width: 70%;
-}
-.progress-bar-REACT{
-    width: 60%;
-}
-.progress-bar-PHP{
-    width: 50%;
-}
-
-   /*desktop*/
-@media (min-width: 766px){
-   
-    .Accueil{
-        padding: 25px;
-        margin: 40px auto 80px;
-        display: flex;
-        flex-direction: row;
-        max-width: 75%;
-    }
-    .Accueil article{
-        width: 50%;
-    }
-    .Competences{
-        margin: 0;
-    }
-}
-/* PAGE SERVICE*/
-
-.Service_body h5{
-    margin: 0 !important;
-}
-
-.row {
-    margin-top: 45px !important;
-    margin-bottom: 35px !important;
-}
-
-.Service_img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 !important;
-    width: 100%;
-    height: 50px !important;
-}
-
-
-.Service_img svg{
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 30px !important;
-    height: 30px !important;
-    color: #0d6efd;
-}
-
-@media (min-width: 766px){
-    
-    
-    .service-row{
-        max-height: fit-content !important;
-    }
-    .card{
-        height: fit-content;
-        min-height: 350px !important;
-    }
-    .card-body{
-        height: fit-content;
-    }
-
-    .card:hover{
-        background-color: #0d6efd;
-        color: #f5f5f5;
-        box-shadow: rgba(0, 0, 0, 0.274) 5px 5px 5px;
-    }
-    .card:hover .svg-icon{
-        fill:#f5f5f5;
-    }
-
-    .Service_img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 !important;
-        width: 100%;
-        height: 90px !important;
-    }
-    
-    .svg-icon{
-        transition: fill 0.3 ease;
-}
-    .Service_img svg{
-        width: 50px !important;
-        height: 50px !important;
-    }
-}
-
-/* PAGE PORTFOLIO*/
-
-
-
-.portfolio-row{
-    margin: 0 !important;
-    height: fit-content !important;
-}
-
-.portfolio-col{
-    min-height: 40%;
-    min-width: 25%;
-}
-
-.portfolio_card{
-    border: 0.5px solid grey;
-    border-radius: 7px;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-.portfolio_body_card{
-    text-align: center;
-}
-.portfolio_card-title{
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.portfolio_card-text{
-    min-height: 120px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    
-
-}
-.btn_container{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.portfolio-button{
-    background-color:#0b5ed7 !important;
-}
-.portfolio-button{
-    display: block !important;
-    position: absolute;
-    bottom: 0px;
-    width: 100px;
-}
-.footer__portfolio_card{
-
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    min-height: 35px;
-    height: fit-content;
-    background-color: #efefef;
-    border-top: 0.5px solid grey;
-}
-@media (min-width: 766px){
-
-    
-
-
-.portfolio_title h2{
-    max-width:540px;
-}
-.portfolio_card:hover{
-    background-color: #efefef;
-    box-shadow: rgba(0, 0, 0, 0.274) 5px 5px 5px;
-}
-
-.portfolio-button:hover{
-    background-color: #0d6efd !important;
-}
-
-}
-
-
-
-/* PAGE CONTACT*/
-
-.pages-container{
-    border:1px solid rgb(255, 0, 85);
-}
-.contact-grid{
-    display: flex;
-    flex-direction: column;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 10px;
-    border:2px solid rgb(0, 255, 42);
-    gap: 10px;
-}
-
-.contact-title{
-    width: 100%;
-    margin-top: 25px ;
-    text-align: center;
-    border-bottom: 3px solid #0d6efd;
-}
-
-.contact_form,
-.contact_location{
-    padding: 0 0 20px 0 !important;
-    margin: 0 !important;
-    border:2px solid rgb(9, 243, 235);
-}
-#submit{
-    display: flex;
-    justify-self: center;
-    width: 80px;
-    color: #efefef;
-    background-color: #0b5ed7;
-    text-align: center;
-}
-.submit{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-}
-
-
-.information_maps{
-    width: 200px;
-    height: 200px;
-}
-
-@media (min-width:766px){
-    .contact-grid{
-    display: flex;
-    flex-direction: row;
-    
-    }
-}
-/* PAGE MENTION LEGAL*/
-
-
-
-
-
-
-
-/*mobile*/
 
 .pages-body{
     width: 100%;
 }
 .pages-container{
-    width: 95%;
     margin: 50px auto 60px !important;
+    padding: 5px 10px 20px 10px !important;
+    border-radius: 5px;
+    width: 95%;
 }
 
 .pages_title{
@@ -316,9 +38,13 @@
     background-color: #0d6efd;
 }
 
+.contact-link_breakline{
+    display: block;
+}
 
 
-/*desktop*/
+
+/*desktop general*/
 
 @media (min-width: 766px){
     .pages-container{
@@ -336,5 +62,10 @@
     max-width:540px;
     }
 }
+
+
+
+
+
 
 

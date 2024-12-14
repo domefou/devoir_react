@@ -24,7 +24,7 @@ function NavBar (){
 
         <nav className="navbar navbar-expand-md">
             <div className="container-fluid">
-                <a className="navbar-brand text-white" href="#">JOHN DOE</a>
+                <a className="navbar-brand text-white" href="https://github.com/github-john-doe" rel='nofollow'>JOHN DOE</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -45,7 +45,7 @@ function NavBar (){
                         <NavLink className="nav-link"  to="/Contact" onClick={closeNavbar()}>Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                        <NavLink className="nav-link"  to="/Mention" onClick={closeNavbar()}>Mention</NavLink>
+                        <NavLink className="nav-link"  to="/Mention" onClick={closeNavbar()}>Mention légales</NavLink>
                         </li>
                     </ul>
                 </div>

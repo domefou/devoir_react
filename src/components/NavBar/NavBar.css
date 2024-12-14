@@ -40,6 +40,11 @@
 /*DESKTOP*/
 
 @media (min-width: 700px){
+
+    .navbar-brand:hover{
+        transform: scale(1.2);
+        font-style: italic;
+    }
     .nav-item{
         text-align: end;
     }
