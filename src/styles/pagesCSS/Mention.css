@@ -19,6 +19,13 @@
     color: #0b5ed7 !important;
 }
 
+.mention_svg{
+    color: black;
+}
+.mention_icon{
+    fill: currentColor;
+}
+
 /*item 2*/
 .item-2 a{
     color: #0b5ed7 !important;

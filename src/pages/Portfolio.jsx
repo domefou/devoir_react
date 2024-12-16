@@ -22,10 +22,8 @@ const Portfolio = () => {
             <meta name="description" content="Bienvenue sur la page portfolio. Je vous présente ici la diversitées de me contenu réalisé par mes soins et bien d'autre a venir..." />
         </Helmet>
         <div>
-            <section>
-                <Banner/>
-            </section>
-            <section className='pages-body'>
+            <Banner/>
+            <div className='pages-body'>
                 <article className='pages_title'>
                     <div className='border-bottom'></div>
                     <h2>Mon offre de services</h2>
@@ -33,7 +31,7 @@ const Portfolio = () => {
 
                 </article>
 
-            <article className='pages-container'>
+                <article className='pages-container'>
                     <div className="portfolio-row row row-cols-1 row-cols-md-3 g-3">
 
                         <div className="portfolio-col col">
@@ -44,6 +42,7 @@ const Portfolio = () => {
                                     <div className="portfolio_card-text">
                                         <p>Site de vente de produits frais en ligne</p>
                                     </div>
+                                    
                                     <div className='btn_container'>
                                         <a href="./Portfolio" className="portfolio-button btn btn-primary">Voir le site</a>
                                     </div>
@@ -63,6 +62,7 @@ const Portfolio = () => {
                                     <div className="portfolio_card-text">
                                         <p>Site de vente de produits frais en ligne</p>
                                     </div>
+
                                     <div className='btn_container'>
                                         <a href="./Portfolio" className="portfolio-button btn btn-primary">Voir le site</a>
                                     </div>
@@ -82,6 +82,7 @@ const Portfolio = () => {
                                     <div className="portfolio_card-text">
                                         <p>Site de vente de produits frais en ligne</p>
                                     </div>
+
                                     <div className='btn_container'>
                                         <a href="./Portfolio" className="portfolio-button btn btn-primary">Voir le site</a>
                                     </div>
@@ -101,6 +102,7 @@ const Portfolio = () => {
                                     <div className="portfolio_card-text">
                                         <p>Amélioration du référencement d'un site e-commerce</p>
                                     </div>
+
                                     <div className='btn_container'>
                                         <a href="./Portfolio" className="portfolio-button btn btn-primary">Voir le site</a>
                                     </div>
@@ -119,11 +121,10 @@ const Portfolio = () => {
                                     <div className="portfolio_card-text">
                                         <p>Création d'une API RESTFULL publique</p>
                                     </div>
-                                    <div className='btn_container'>
 
+                                    <div className='btn_container'>
                                         <a href="./Portfolio" className="portfolio-button btn btn-primary">Voir le site</a>
                                     </div>
-
                                 </div>
                                 <div className='footer__portfolio_card'>
                                     <p>PHP - SYMPHONY</p>
@@ -137,29 +138,24 @@ const Portfolio = () => {
                                 <div className="portfolio_body_card card-body">
                                     <h5 className="portfolio_card-title">Maquette d'un site web</h5>
                                     <div className="portfolio_card-text">
-                                        <p>Création du prototype d'un site,Création du prototype d'un site</p>
-                                        
+                                        <p>Création du prototype d'un site,Création du prototype d'un site</p>                                       
                                     </div>
-                                    <div className='btn_container'>
 
+                                    <div className='btn_container'>
                                         <a href="./Portfolio" className="portfolio-button btn btn-primary">Voir le site</a>
                                     </div>
                                     
-
                                 </div>
                                 <div className='footer__portfolio_card'>
                                     <p>Réalisé avec FIGMA</p>
                                 </div>
                             </div>  
                         </div>
-
-
-
                     </div>
                 </article>
 
 
-        </section>
+            </div>
         </div>
     </main>   
     );

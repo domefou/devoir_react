@@ -47,8 +47,13 @@ footer h4{
 }
 
 .footer_social-network a{
-    color:rgba(230, 230, 230, 0.2);
+    color: black;
 }
+.icon_social{
+    fill: currentColor;
+}
+
+
 
 /* conteneur 2*/
 

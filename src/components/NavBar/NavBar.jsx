@@ -7,8 +7,8 @@ import './NavBar.css';
 
  //fermeture du burger apres click
 
- function closeNavbar(){
-    let navbarCollapse = document.querySelector('.navbar-collapse');
+ const closeNavbar = () => {
+    let navbarCollapse = document.querySelector('.collapse');
     if (navbarCollapse) { 
         navbarCollapse.classList.remove('show');
     }
@@ -33,28 +33,24 @@ function NavBar (){
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                        <NavLink className="nav-link" aria-current="page" to="/Home" onClick={closeNavbar()}>Home</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to="/Home" onClick={closeNavbar}>home</NavLink>
                         </li>
                         <li className="nav-item">
-                        <NavLink className="nav-link"  to="/Service" onClick={closeNavbar()}>Service</NavLink>
+                            <NavLink className="nav-link"  to="/Service" onClick={closeNavbar}>service</NavLink>
                         </li>
                         <li className="nav-item">
-                        <NavLink className="nav-link"  to="/Portfolio" onClick={closeNavbar()}>Portfolio</NavLink>
+                            <NavLink className="nav-link"  to="/Portfolio" onClick={closeNavbar}>portfolio</NavLink>
                         </li>
                         <li className="nav-item">
-                        <NavLink className="nav-link"  to="/Contact" onClick={closeNavbar()}>Contact</NavLink>
+                            <NavLink className="nav-link"  to="/Contact" onClick={closeNavbar}>contact</NavLink>
                         </li>
                         <li className="nav-item">
-                        <NavLink className="nav-link"  to="/Mention" onClick={closeNavbar()}>Mention légales</NavLink>
+                        <   NavLink className="nav-link"  to="/Mention" onClick={closeNavbar}>mention légales</NavLink>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
-        
-            
-        
     </div>
     );
 }

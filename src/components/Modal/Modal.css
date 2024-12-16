@@ -45,13 +45,17 @@ p{
     color: white;
 }
 
-.header__modal>svg{
-    margin: 8px 8px 0 0;
-}
-.header__modal>svg:hover{
+.modal_close:hover{
     cursor: pointer;
-    color: rgba(128, 128, 128,0.5);
+    color:rgba(128, 128, 128, 0.726);
+}
+
+.modal_svg{
+    color:rgb(190, 190, 190);
     
+}
+.icon_modal{
+    fill:currentColor;
 }
 
 /* Main Modal*/
