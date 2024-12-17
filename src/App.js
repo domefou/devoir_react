@@ -19,7 +19,7 @@ import Home from './pages/Home';
 import Service from './pages/Service';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import Mention from './pages/Mention';
+import MentionLegale from './pages/MentionLegale';
 
 
 
@@ -38,7 +38,7 @@ function App() {
             <Route path='/service' element={<Service />}/>                 
             <Route path='/portfolio' element={<Portfolio />}/>
             <Route path='/contact' element={<Contact />}/>
-            <Route path='/mention' element={<Mention />}/>
+            <Route path='/mentionLegale' element={<MentionLegale />}/>
         </Routes>
       <footer>
         <Footer/>

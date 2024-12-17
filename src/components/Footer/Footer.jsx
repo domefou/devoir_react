@@ -48,7 +48,7 @@ function Footer (){
                             <li><Link className="footer_nav-link"  to="/Service">Service</Link></li>
                             <li><Link className="footer_nav-link"  to="/Portfolio">Portfolio</Link></li>
                             <li><Link className="footer_nav-link"  to="/Contact" >Contact</Link></li>                
-                            <li><Link className="footer_nav-link"  to="/Mention">Mention légales</Link></li>
+                            <li><Link className="footer_nav-link"  to="/MentionLegale">Mention légales</Link></li>
                         </ul>
                     </div> 
 

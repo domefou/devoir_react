@@ -45,7 +45,7 @@ function NavBar (){
                             <NavLink className="nav-link"  to="/Contact" onClick={closeNavbar}>contact</NavLink>
                         </li>
                         <li className="nav-item">
-                        <   NavLink className="nav-link"  to="/Mention" onClick={closeNavbar}>mention légales</NavLink>
+                        <   NavLink className="nav-link"  to="/MentionLegale" onClick={closeNavbar}>mention légales</NavLink>
                         </li>
                     </ul>
                 </div>
