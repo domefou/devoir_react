@@ -23,8 +23,6 @@ import Mention from './pages/Mention';
 
 
 
-/* Pages */
-
 function App() {
 
   return (
