@@ -1,0 +1,49 @@
+.accordion{
+    border: 1px solid rgba(230, 230, 230, 0.6) !important;
+}
+.accordion-header{
+    min-width: 100% !important;
+}
+.accordion-button{
+    min-width: 100% !important;
+}
+.accordion-body{
+    min-width: 100% !important;
+}
+/* item 1*/
+.item-1 h4,
+.item-1 a {
+    color: black !important;
+}
+.item-1 a:hover{
+    color: #0b5ed7 !important;
+}
+
+.mention_svg{
+    color: black;
+}
+.mention_icon{
+    fill: currentColor;
+}
+
+/*item 2*/
+.item-2 a{
+    color: #0b5ed7 !important;
+}
+.item-2 a:hover{
+    color: blue !important;
+}
+.title_Strong{
+    font-weight: 600 ;
+}
+/*item-3*/
+
+.item-3 p{
+    line-height: 2em;
+}
+.item-3 a{
+    color: #0b5ed7 !important;
+}
+.item-3 a:hover{
+    color: blue !important;
+}

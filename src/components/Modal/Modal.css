@@ -1,0 +1,188 @@
+p{
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.5);
+    
+    
+}
+
+.viewModal{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    width: 90%;
+    height: 95%;
+    background-color: #212529;
+    border: 1px solid rgb(128, 128, 128,0.5);
+    border-radius: 10px;
+    
+
+}
+
+/* Header Modal */
+
+.header__modal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:8px 0 8px 8px;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid rgb(128, 128, 128,0.5);
+    color: white;
+}
+
+.modal_close:hover{
+    cursor: pointer;
+    color:rgba(128, 128, 128, 0.726);
+}
+
+.modal_svg{
+    color:rgb(190, 190, 190);
+    
+}
+.icon_modal{
+    fill:currentColor;
+}
+
+/* Main Modal*/
+
+
+.main__avatar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+.avatar{
+    min-width: 250px;
+    max-height: 255px;
+}
+.main__modal{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 40px;
+    height: 85%;
+    color: rgb(200, 200, 200);
+}
+
+.main__description{
+    width: 100%;
+    height: 50%;
+}
+svg{
+    margin-right: 5px;
+}
+
+.name,
+.location,
+.message,
+.repository,
+.followers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    min-height: 30px;
+    border-bottom: 1px solid rgb(128, 128, 128,0.5);
+}
+.following{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    min-height: 30px;
+}
+
+/*Footer Modal*/
+
+.footer_modal{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid rgb(128, 128, 128,0.5);
+    color: rgb(190, 190, 190);
+}
+
+.footer_modal button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    margin-right: 8px;
+    width: 80px;
+    height: 40px;
+}
+.footer_modal button p{
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+
+.footer_modal button:hover{
+    background-color:rgba(128, 128, 128,0.5) ;
+}
+
+
+
+@media (min-width: 560px){
+
+    .viewModal{
+        width: 50%;
+        min-width: 555px;
+        max-height: 420px;
+    }
+    .header__modal{
+        width: 100%;
+        height: 10%;
+        
+    }
+
+    .main__modal{
+        display: flex;
+        flex-direction: row;
+        margin: 0 20px;
+        max-width: 100%;
+        height: 80%;
+        color: rgb(190, 190, 190);
+    }
+    .main__avatar{
+        align-self: center;
+        width: 50%;
+        height: 80%;
+    }
+    .main__description{
+        align-content: center;
+        width: 50%;
+        height: 100%;
+        
+    }
+    .name,
+.location,
+.message,
+.repository,
+.followers{
+    padding: 5px 10px;
+}
+}

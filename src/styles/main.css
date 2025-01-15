@@ -1,0 +1,71 @@
+                                        /* CSS MOBILE FIRST*/
+
+                                        /* MEDIA MIN-WIDHT 766PX */
+                                        
+                                        
+/*mobile general*/
+
+
+.pages-body{
+    width: 100%;
+}
+.pages-container{
+    margin: 50px auto 60px !important;
+    padding: 5px 10px 20px 10px !important;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.pages_title{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 25px ;
+    text-align: center;
+}
+.pages_title h2{
+    margin: auto;
+}
+
+
+.border-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 6px;
+    width: 33%;
+    background-color: #0d6efd;
+}
+
+.contact-link_breakline{
+    display: block;
+}
+
+
+
+/*desktop general*/
+
+@media (min-width: 766px){
+    .pages-container{
+        width: 75%;
+        margin: auto;
+    }
+
+    
+    .service-body{
+        height: fit-content !important;
+        min-height: 400px !important;
+    }
+
+    .pages_title h2{
+    max-width:540px;
+    }
+}
+
+
+
+
+
+
+

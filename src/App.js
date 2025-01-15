@@ -1,24 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react';
+
+//utilisation de HelmetProvider afin de donner une description a toutes les pages react
+//utiliser Helmet dans le contenu pour creer un title et une meta description
+import {HelmetProvider } from 'react-helmet-async';
+
+
+//feuille de style
+import './styles/main.css';
+
+import {Route, Routes, Navigate} from 'react-router-dom';
+
+//components
+import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
+
+import Home from './pages/Home';
+import Service from './pages/Service';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import MentionLegale from './pages/MentionLegale';
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <HelmetProvider>
+      <div>
+      <header>
+        <NavBar/> 
       </header>
+        <Routes>
+          
+            <Route path='/' element={<Navigate to='/home' />}/>
+            <Route path='/home' element={<Home />}/>
+            <Route path='/service' element={<Service />}/>                 
+            <Route path='/portfolio' element={<Portfolio />}/>
+            <Route path='/contact' element={<Contact />}/>
+            <Route path='/mentionLegale' element={<MentionLegale />}/>
+        </Routes>
+      <footer>
+        <Footer/>
+      </footer> 
     </div>
+
+    </HelmetProvider>
+    
+      
   );
 }
 
